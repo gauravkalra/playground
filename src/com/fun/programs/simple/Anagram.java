@@ -8,7 +8,7 @@ public class Anagram
 
 	public static void main(String[] args)
 	{
-		String str = "abcd";
+		String str = "abc";
 		List<String> anagrams = createAnagram(str);
 		System.out.println(anagrams.size());
 		for (String anagram : anagrams)
